@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 8px;
+
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.grid > div {
+  background-color: cornflowerblue;
+}
+
+.grid div:nth-child(2) {
+   align-self: end;
+   justify-self: start;
+} */
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+
+
+  /* display: grid;
+  grid-auto-flow: column;
+  justify-content: start; 
+  gap: 20px*/
+}
